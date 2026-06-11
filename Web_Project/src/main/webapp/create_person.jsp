@@ -3,10 +3,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
+<%--Instantiating a bean of type Person ,putting it into SESSION scope and Setting value for all the properties --%>
+
+<jsp:useBean id ="pers" 
+class ="example.bean.Person"
+ scope="session"/> 
+
+<jsp:setProperty property="*" name="pers"/>
+
+<h1>Person created. To view details <a href ="show_person.jsp">Click Here</a></h1>
 
 </body>
 </html>
