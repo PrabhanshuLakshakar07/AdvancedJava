@@ -1,6 +1,6 @@
 package example.hibernate.entity;
 
-public class Picnic {
+public class Picnic {  //picnic_Master   Picnic.hbm.xml
 	
 	private int picnicId;
 	private String location;

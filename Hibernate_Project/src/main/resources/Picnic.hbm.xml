@@ -4,5 +4,24 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">    
 
 <hibernate-mapping>
+    <class name="example.hibernate.entity.Picnic"
+           table="picnic_Master">
 
+        <id name="picnicId"
+            column="picnic_id"
+            type="int"/>  
+
+        <property name="location"
+                  column="picnic_loc"
+                  type="string"/>
+
+        <property name="date"
+                  column="picnic_date"
+                  type="string"/>
+
+        <property name="headCount"
+                  column="picnic_head_count"
+                  type="int"/>
+
+    </class>
 </hibernate-mapping>
