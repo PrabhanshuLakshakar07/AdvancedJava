@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
 
 @Configuration                 //Marks this class as a configuration specific class
-@ComponentScan(basePackages= {"first" ,"Second" , "example"})    //Enabling package scaning for picking  @Component Anotation
+@ComponentScan(basePackages= {"first" ,"Second" , "example "})    //Enabling package scaning for picking  @Component Anotation
 public class SpringConfig {
 	@Bean("myBean") //override the default ID
 	@Lazy
@@ -26,7 +26,7 @@ public class SpringConfig {
 			
 	}
 	@Bean
-	public Address getAddress2() {
+	public Address getAddress2() {  
 		return new Address("Bangalore",500001);
 			
 	}
