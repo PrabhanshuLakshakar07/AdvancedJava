@@ -27,9 +27,16 @@ public class PureAnnotationBasedConfigurationMain {
 			secondComp.doWork();
 			
 			
+//			SecondChildComponent secondChildComp=
+//					appContext.getBean(SecondChildComponent.class);
+//				secondChildComp.doWork();
+			
+			Object obj = appContext.getBean("second_child");
 			SecondChildComponent secondChildComp=
-					appContext.getBean(SecondChildComponent.class);
-				secondChildComp.doWork();
+					(SecondChildComponent)obj;
+			secondChildComp.doWork();
+				
+				
 
 	}
 
