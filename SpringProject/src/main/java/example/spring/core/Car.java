@@ -1,11 +1,14 @@
 package example.spring.core;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Car {
 	private String make;
 	private String model;
-	@Autowired //marks this field to be auto-wired
+	//marks this field to be auto-wired 
+	@Autowired (required=false) // Making this auto-wiring OPTIONAL
+	@Qualifier("diesel")
 	private Engine engine;
 
 	public Car() {

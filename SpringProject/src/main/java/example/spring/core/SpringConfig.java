@@ -1,11 +1,14 @@
 package example.spring.core;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
 
 @Configuration                 //Marks this class as a configuration specific class
+@ComponentScan(basePackages= {"first" ,"Second" , "Second.child"})    //Enabling package scaning for picking  @Component Anotation
 public class SpringConfig {
 	@Bean("myBean") //override the default ID
 	@Lazy
@@ -41,9 +44,15 @@ public class SpringConfig {
 		
 	}
 	
-	@Bean("petrol")
+	@Bean("petrol")@Primary
+	
 	public Engine getEngine() {
 		return new Engine("Petrol");
+		
+	}
+	@Bean("diesel")
+	public Engine getDiesel() {
+		return new Engine("Diesel");
 		
 	}
 	
