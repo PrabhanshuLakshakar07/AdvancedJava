@@ -15,8 +15,8 @@ public class PureAnnotationBasedConfigurationMain {
 		ApplicationContext appContext=
 				new AnnotationConfigApplicationContext(SpringConfig.class);
 	
-//		ManagedComponents mgComp=appContext.getBean(ManagedComponents.class);
-//		mgComp.doWork();
+		ManagedComponents mgComp=appContext.getBean(ManagedComponents.class);
+		mgComp.doWork();
 		
 		FirstComponent  firstComp=
 			appContext.getBean(FirstComponent.class);
@@ -26,10 +26,10 @@ public class PureAnnotationBasedConfigurationMain {
 				appContext.getBean(SecondComponent.class);
 			secondComp.doWork();
 			
-			
-//			SecondChildComponent secondChildComp=
-//					appContext.getBean(SecondChildComponent.class);
-//				secondChildComp.doWork();
+//			
+////			SecondChildComponent secondChildComp=
+////					appContext.getBean(SecondChildComponent.class);
+////				secondChildComp.doWork();
 			
 			Object obj = appContext.getBean("second_child");
 			SecondChildComponent secondChildComp=
