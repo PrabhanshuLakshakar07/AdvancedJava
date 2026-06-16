@@ -3,10 +3,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
 </head>
 <body>
+<h1>Please Sign-in</h1>
+<form action="doValidate" method="post">
+<pre>
+Enter Username:<input type="test" name="uid"/> 
+Enter Password:<input type="password" name="pwd"/> 
+
+<input type ="submit" value ="sign-In" />
+
+</pre>
+
+
+</form>
 
 </body>
 </html>
