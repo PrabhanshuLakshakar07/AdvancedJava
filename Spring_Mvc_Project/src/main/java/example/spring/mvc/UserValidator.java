@@ -11,7 +11,7 @@ public class UserValidator {
 		
 		String currentPassword =currentUser.getPassword();
 		
-		if(currentUserName.equals("admin") && currentPassword.equals("asAdmin")) {
+		if(currentUserName.equals("prabhanshu") && currentPassword.equals("asAdmin")) {
 			validationStatus=true;
 		}
 		

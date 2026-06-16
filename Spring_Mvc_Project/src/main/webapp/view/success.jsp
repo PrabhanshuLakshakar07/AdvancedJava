@@ -7,6 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1 style="color:green">Success!!!</h1>
+<%
+Object currentUser=session.getAttribute("loggedInUser");
+%>
+<h1>Hey <%=currentUser %></h1>
+
+<h1 style="color:green">Welcome to our application!!</h1>
 </body>
 </html>
