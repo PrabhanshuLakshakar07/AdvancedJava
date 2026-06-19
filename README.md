@@ -1,18 +1,18 @@
 # 🚀 Advanced Java – Web Based Projects
-
-Is repository me Advanced Java aur Spring ecosystem ke different topics par based mini-projects rakhe gaye hain — Hibernate se shuru karke Spring Boot, Spring MVC, Spring Data JPA aur Spring Rest Security tak. Har folder ek independent project hai jisme us specific topic ka hands-on implementation diya gaya hai.
+This repository contains mini-projects based on various topics from Advanced Java and the Spring ecosystem. Starting from Hibernate and covering Spring Boot, Spring MVC, Spring Data JPA, and Spring REST Security, each folder represents an independent project with hands-on implementation of a specific technology.
 
 ## 📂 Project Structure
 
-| Project Folder | Topic | Description |
-|---|---|---|
-| [`Hibernate_Project`](./Hibernate_Project) | Hibernate ORM | Hibernate framework ka use karke Java objects ko database tables ke saath map karna (ORM basics, Session Factory, HQL). |
-| [`SpringProject`](./SpringProject) | Spring Boot | Spring Boot ke fundamentals — auto-configuration, dependency injection, aur basic Spring Boot application setup. |
-| [`Spring_Mvc_Project`](./Spring_Mvc_Project) | Spring MVC | Logged-in user ki session ko `@SessionAttributes` annotation ke through manage karna, Spring MVC architecture ka practical implementation. |
-| [`Spring_Rest_Data_Jpa_Project`](./Spring_Rest_Data_Jpa_Project) | Spring Data JPA | MySQL database ke saath CRUD operations (Create, Read, Update, Delete) Spring Data JPA repositories use karke. |
-| [`Spring_Rest_Project`](./Spring_Rest_Project) | Spring REST + JPA | REST APIs banane ka complete flow, Spring Data JPA ke integration ke saath. |
-| [`Spring_Rest_Security_Project`](./Spring_Rest_Security_Project) | Spring Security | REST APIs ko secure karna — authentication aur authorization implement karna Spring Security ke through. |
-| [`Web_Project`](./Web_Project) | JSP | JSP (`getProperty`) ka use karke dynamic web pages banana, JavaBeans ke saath data binding. |
+| Project Folder                 | Topic             | Description                                                                                                                           |
+| ------------------------------ | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| `Hibernate_Project`            | Hibernate ORM     | Demonstrates how to map Java objects to database tables using the Hibernate framework (ORM basics, Session Factory, and HQL).         |
+| `SpringProject`                | Spring Boot       | Covers Spring Boot fundamentals, including auto-configuration, dependency injection, and basic application setup.                     |
+| `Spring_Mvc_Project`           | Spring MVC        | Practical implementation of the Spring MVC architecture, including user session management using the `@SessionAttributes` annotation. |
+| `Spring_Rest_Data_Jpa_Project` | Spring Data JPA   | Performs CRUD (Create, Read, Update, Delete) operations with a MySQL database using Spring Data JPA repositories.                     |
+| `Spring_Rest_Project`          | Spring REST + JPA | Demonstrates the complete workflow of building REST APIs integrated with Spring Data JPA.                                             |
+| `Spring_Rest_Security_Project` | Spring Security   | Shows how to secure REST APIs by implementing authentication and authorization using Spring Security.                                 |
+| `Web_Project`                  | JSP               | Demonstrates building dynamic web pages using JSP (`getProperty`) along with JavaBeans-based data binding.                            |
+
 
 ## 🛠️ Tech Stack
 
