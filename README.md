@@ -41,7 +41,7 @@ Is repository me Advanced Java aur Spring ecosystem ke different topics par base
 
 ## 📌 Purpose
 
-Yeh repository personal learning aur practice ke liye banaya gaya hai — Advanced Java ke web-based concepts ko step-by-step implement karke samajhna. Har project alag-alag topic cover karta hai taaki concepts clear aur isolated raha sake.
+This repository is created for personal learning and practice — understanding web-based concepts of Advanced Java by implementing them step-by-step. Each project covers a different topic so that the concepts remain clear and isolated.
 
 ## 🤝 Contributions
 
