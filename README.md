@@ -45,7 +45,7 @@ This repository is created for personal learning and practice — understanding 
 
 ## 🤝 Contributions
 
-Yeh ek personal learning repository hai, lekin suggestions aur feedback ke liye issues/PRs open hain.
+This is a personal learning repository, but issues/purses are open for suggestions and feedback.
 
 ## 👤 Author
 
